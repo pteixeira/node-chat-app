@@ -11,6 +11,6 @@ socket.on('disconnect', function() {
 
 // Listen for newMessage
 socket.on('newMessage', function(message) {
-  console.log('New message received', message);
+  console.log('newMessage', message);
 });
 
